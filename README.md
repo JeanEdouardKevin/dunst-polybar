@@ -1,6 +1,7 @@
 # dunst-polybar
 [Dunst](https://github.com/dunst-project/dunst) notifications switch module for [Polybar](https://github.com/jaagr/polybar)
 
+![module](dunst-notify.gif)
 
 ## Dependencies
 * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
