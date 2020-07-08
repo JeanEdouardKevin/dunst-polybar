@@ -16,8 +16,8 @@ type = custom/ipc
 initial = 1
 format-foreground = ${colors.yellow}
 
-hook-0 = echo "%{A1:notify-send "DUNST_COMMAND_PAUSE" && polybar-msg hook dunst 2:}%{A}"
-hook-1 = echo "%{A1:notify-send "DUNST_COMMAND_RESUME" && polybar-msg hook dunst 1:}%{A}" 
+hook-0 = echo "%{A1:notify-send "DUNST_COMMAND_PAUSE" && polybar-msg hook dunst 2:}%{A}" &
+hook-1 = echo "%{A1:notify-send "DUNST_COMMAND_RESUME" && polybar-msg hook dunst 1:}%{A}" &
 ```
 ## Customization
 You can change the icons in `hook-0` and `hook-1` (between theses two caracters: `}"Insert icon here"%`). You can also change the color of the icon by modifying `format-foreground`
